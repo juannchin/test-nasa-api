@@ -13,8 +13,8 @@ const getValueInput = () =>{
     }
 
     var url = "https://api.nasa.gov/planetary/earth/assets?";
-    var lat = document.getElementById("Latitud").value;
-    var lon = document.getElementById("Longitud").value;
+    var coordinates = document.getElementById("Coordenadas").value;
+    const [lat, lon] = coordinates.split(',');
     var api_key = "PT9xDosnbfG4Re08XZOaZTRxaBMCFEr2a6fSrYcm";
 
     req.open("GET", url + 
