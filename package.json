@@ -1,0 +1,20 @@
+{
+  "name": "test-nasa-api",
+  "version": "1.0.0",
+  "description": "Pagina de prueba para consumir una API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juannchin/test-nasa-api.git"
+  },
+  "author": "Juan Garay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juannchin/test-nasa-api/issues"
+  },
+  "homepage": "https://github.com/juannchin/test-nasa-api#readme"
+}
