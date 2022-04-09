@@ -1,0 +1,29 @@
+div.clr {
+    clear: left;
+  }
+body{
+    background-color: #ffffff;
+    font-family: 'Lucida Sans Regular', sans-serif;
+}
+#main {
+    width:70%;
+    position:fixed;
+    margin: 0 auto;
+    position: relative;
+    background-color: aliceblue;
+    border: 2px solid #afa8a8;
+    border-style:outset;
+    padding: 20px 20px;
+
+}
+.loader{width:60px;height:60px;background:0 0;border:10px solid transparent;border-top-color:#f56;border-left-color:#f56;border-radius:50%;animation:loader .75s 10 ease forwards}@keyframes loader{100%{transform:rotate(360deg)}}
+
+#container {
+    width:50%;
+    position:fixed;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid #000000;
+    padding: 20px 20px;
+
+    b

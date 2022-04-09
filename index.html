@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer imagen desde la API de NASA</title>
+    <script src="leer.js"></script>
+</head>
+<body>
+    <div id="main">
+        <h4> Digita la Latitud y Longitud de la imagen satelital que deseas visualizar</h4> 
+        
+        <label for="domTextElement">Latitud: </label>
+        <input type="text" id="Latitud" value="13.6915381"> 
+        
+        <label for="domTextElement">Longitud: </label>
+        <input type="text" id="Longitud" value="-89.2409653">  
+        
+        <button type="button"  onclick="getValueInput()"> 
+            Buscar 
+        </button> 
+
+        <p>&nbsp;</p>
+
+        <div id="container">
+            Acá se mostrará tu resultado!!!
+        </div>
+    </div>
+</body>
+</html>
